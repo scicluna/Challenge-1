@@ -1,0 +1,152 @@
+/*Common formatting to stamp out default margin/pading while setting "border-box" allows us to include the padding and border in an element's total width and height. This makes everything a bit easier. Also allows for "width" % attributes to work*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Setting the body background to off-white/grayish*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Setting the padding, font, background color, and text color for the entire header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Setting the font size for header's H1 while also making sure that its an in-line block so that we can set up the navigation side-by-side*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*A cool font trick to make the "seo" in Horiseon gray*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Setting the padding/margins for the nav bar. Uses "float right" to wrap the nav bar in alignment with h1. Sets font and font size for the nav bar*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Gets rid of the bullet points for .header nav ul*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/*Display inline block allows the list items to display side by side instead of stacking(like block would cause). Sets up a leftward margin so they have some space inbetween eachother*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Makes sure the hyperlink is still white and looks like normal text*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Sets the font for all paragraph elements*/
+p {
+    font-size: 16px;
+}
+
+/*Sets the size for the image class .hero*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*Causes any image with the class "float-left" to align to the left of any text in an inline-block (like that which is set up with .content). Also sets up some space between the picture and the text.*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Same as float-left only for aligning pictures to the right of the text*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Causes the content container to take up 75% of the screen. Inlineblock makes it so elements can be side by side in the container. Margin Left gives it some space from the edge of the screen on the left side*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Sets up the margin/padding/width% and height% for the benefits aside. Clear both doesn't seem to do anything, but would normally cause a floated element to be beneath other left/right floated elements. Float right causes the element to float right of the content container.*/
+/*Also changes background color and font family for the benefits container.*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Changes the bottom margin and font color for all of the benefits sections. Combined into one CSS rule for the sake of abbreviating the CSS*/
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Changes bottom margin and aligns the text to center for each of the headers in the benefits container. Combined into one CSS rule for the sake of organization*/
+.benefits h1, .benefits h2, .benefits h3{
+    margin-bottom:10px;
+    text-align: center;
+}
+
+/*Changes the image display to block so that they are above the text instead of in-line with them. Also centers them within the benefits container while setting their width. Combined into one CSS rule*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*All of the sections were set up identically, so like the previous few CSS lines, I combined them into one. This sets up the font, font color, background color, height, padding, and margins for the seections in container "content*/
+.content section{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Sets all of the images in the content container to have a max height of 200px. Combined into one CSS*/
+.content img {
+    max-height: 200px;
+}
+
+/*Changes bottom margin and font size. Combined into one CSS rule for the sake of organization*/
+.content h1, .content h2, .content h3{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Sets up the padding for the footer. Clear both causes the content container to float beneath both of our above content containers. Sets the font and centers the text for the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Sets the font size for footer's h1*/
+.footer h1 {
+    font-size: 20px;
+}
