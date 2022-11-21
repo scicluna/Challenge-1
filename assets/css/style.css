@@ -100,25 +100,25 @@ p {
 }
 
 /*Changes the bottom margin and font color for all of the benefits sections. Combined into one CSS rule for the sake of abbreviating the CSS*/
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Changes bottom margin and aligns the text to center for each of the headers in the benefits container. Combined into one CSS rule for the sake of organization*/
-.benefits h1, .benefits h2, .benefits h3{
+/*Changes bottom margin and aligns the text to center for each of the headers in the benefits container. Combined into one CSS class for the sake of organization*/
+.benefits-header {
     margin-bottom:10px;
     text-align: center;
 }
 
-/*Changes the image display to block so that they are above the text instead of in-line with them. Also centers them within the benefits container while setting their width. Combined into one CSS rule*/
+/*Changes the image display to block so that they are above the text instead of in-line with them. Also centers them within the benefits container while setting their width. Combined into one CSS class*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*All of the sections were set up identically, so like the previous few CSS lines, I combined them into one. This sets up the font, font color, background color, height, padding, and margins for the seections in container "content*/
+/*All of the sections were set up identically, so like the previous few CSS classes, I combined them into one. This sets up the font, font color, background color, height, padding, and margins for the seections in container "content*/
 .content section{
     margin-bottom: 20px;
     padding: 50px;
@@ -133,7 +133,7 @@ p {
 }
 
 /*Changes bottom margin and font size. Combined into one CSS rule for the sake of organization*/
-.content h1, .content h2, .content h3{
+.content-header{
     margin-bottom: 20px;
     font-size: 36px;
 }
