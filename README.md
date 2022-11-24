@@ -1,4 +1,4 @@
-# Challenge 1
+# Horiseon
 
 The purpose of this project is to learn about and edit an HTML/CSS page to be more semantic and concise. It is also a good source of studying the various CSS properties and how they interact with elements and containers.
 
@@ -17,7 +17,7 @@ There are no special dependencies to view this project.
 
 ### Installing
 
-Just unzip and click on index.html to open it in your browser or use the link: https://scicluna.github.io/Challenge-1/
+Just unzip and click on index.html to open it in your browser or use the link: https://scicluna.github.io/Horiseon
 
 ### Executing program
 
@@ -31,5 +31,5 @@ For further help in using this website, or in learning about html, please email 
 
 John Sciclcuna
 sciclunajl@gmail.com  
-https://github.com/scicluna/Challenge-1  
-https://scicluna.github.io/Challenge-1/
+https://github.com/scicluna/Horiseon
+https://scicluna.github.io/Horiseon
