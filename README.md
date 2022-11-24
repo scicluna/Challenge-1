@@ -5,7 +5,6 @@ The purpose of this project is to learn about and edit an HTML/CSS page to be mo
 ## Description
 
 ![Website Screenshot](./assets/images/Site%20Screenshot.png)
-
 This is a simple webpage for the fictional company, Horiseon. Its contents thoroughly explain what the company is about and the page heavily utilizes float to organize its contents. While the site in itself isn't very interesting, the interesting part of this project is its CSS and CSS descriptions which make it easy for anyone to read and learn from.
 
 ## Getting Started
@@ -32,5 +31,5 @@ For further help in using this website, or in learning about html, please email 
 
 John Sciclcuna
 sciclunajl@gmail.com
-https://github.com/scicluna/miniproject1
-https://scicluna.github.io/miniproject1/
+https://github.com/scicluna/Challenge-1
+https://scicluna.github.io/Challenge-1/
