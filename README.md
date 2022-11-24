@@ -17,7 +17,7 @@ There are no special dependencies to view this project.
 
 ### Installing
 
-Just unzip and click on index.html to open it in your browser.
+Just unzip and click on index.html to open it in your browser or use the link: https://scicluna.github.io/Challenge-1/
 
 ### Executing program
 
