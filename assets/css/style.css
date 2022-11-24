@@ -106,7 +106,7 @@ p {
 }
 
 /*Changes bottom margin and aligns the text to center for each of the headers in the benefits container. Combined into one CSS class for the sake of organization*/
-.benefits-header {
+.benefits h2 {
     margin-bottom:10px;
     text-align: center;
 }
@@ -133,7 +133,7 @@ p {
 }
 
 /*Changes bottom margin and font size. Combined into one CSS rule for the sake of organization*/
-.content-header{
+.content h2{
     margin-bottom: 20px;
     font-size: 36px;
 }

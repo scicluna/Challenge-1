@@ -1,4 +1,4 @@
-# Mini Project 1
+# Challenge 1
 
 The purpose of this project is to learn about and edit an HTML/CSS page to be more semantic and concise. It is also a good source of studying the various CSS properties and how they interact with elements and containers.
 
