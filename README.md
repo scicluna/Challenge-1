@@ -30,6 +30,6 @@ For further help in using this website, or in learning about html, please email 
 ## Authors
 
 John Sciclcuna
-sciclunajl@gmail.com
-https://github.com/scicluna/Challenge-1
+sciclunajl@gmail.com  
+https://github.com/scicluna/Challenge-1  
 https://scicluna.github.io/Challenge-1/
